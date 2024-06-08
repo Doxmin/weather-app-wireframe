@@ -1,13 +1,61 @@
-main{
-    background: yellow;
-     width:50%;
-     height:45%;
-    margin:20%;
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
 }
 
-.weather-container{
-
-    border-color: aqua;
-    border-radius: 8px;
-
+.main {
+    padding-top: 50px;
 }
+
+/* Weather container */
+.weather-container {
+    margin-top: 50px;
+    background-color: rgba(255, 255, 255, 0.9); /* Light background with transparency */
+    padding: 20px;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+
+.weather-container .col-md-2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Weather icon */
+.weather-icon {
+    font-size: 3rem; /* Larger icon size */
+    color: #007bff; /* Blue color for icons */
+    margin-bottom: 20px;
+}
+
+/* Weather details */
+.weather-details {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #495057; /* Darker text color */
+}
+
+/* Day */
+.day {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+/* Search bar */
+.input-group {
+    margin-bottom: 20px;
+}
+
+/* Search button */
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
